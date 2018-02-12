@@ -14,7 +14,7 @@
                 <dl>
                     <dt>Nama            : {{$posts->nama}}</dt>
                     <dt>NIM             : {{$posts->nim}}</dt>
-                    <dt>Tanggal Masuk   : {{$posts->tanggal_masuk}}</dt>
+                    <dt>Tanggal Masuk   : {{date('d/m/Y',strtotime($posts->tanggal_masuk))}}</dt>
                 </dl>
                 <dl>
                     <dt>Judul TA:</dt>
